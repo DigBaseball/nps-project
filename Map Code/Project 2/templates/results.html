@@ -1,0 +1,19 @@
+<!-- results.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Results</title>
+</head>
+<body>
+    <h1>{{t_title}}</h1>
+    <div class = 'div_outer'>
+        {% for t_pkg_name in array_campgrounds: %}
+    <div class = 'div_inner'>
+        {{t_pkg_name}}
+    </div>
+    {% endfor %}
+
+    </div>
+</body>
+</html>
